@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   color: black;
+  max-width: 100vw;
 }
 
 nav {
@@ -80,9 +81,10 @@ img {
   height: 100%;
   border-radius: 10px;
   padding: 20px;
-  padding-left: 50px;
-  padding-right: 70px;
+  padding-left: 60px;
+  padding-right: 0;
 }
+
 #info {
   position: relative;
   margin: auto;
@@ -92,13 +94,17 @@ p {
   line-height: 2rem;
   height: 200px;
   text-align: left;
+  max-width: 80%;
+  color: rgb(112, 112, 112);
 }
 #informatie {
+  position: absolute;
   line-height: 2rem;
   margin-top: 40px;
   width: auto;
   list-style-type: none;
   text-indent: -25px;
+  display: inline-block;
 }
 h6 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana,
@@ -127,4 +133,68 @@ i {
   position: absolute;
   color: #b19cd9;
   align-content: center;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: left;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #deel1 {
+    height: 80vh;
+  }
+
+  #deel2 {
+    height: fit-content;
+    block-size: fit-content;
+  }
+
+  #foto {
+    float: left;
+    width: 100%;
+  }
+
+  #beschrijving {
+    float: left;
+    width: 100%;
+    block-size: fit-content;
+    margin: auto;
+    padding: auto;
+    margin-top: 2vh;
+  }
+
+  #onder {
+    background-size: cover;
+    height: 100vh;
+  }
+
+  p {
+    margin-bottom: 50px;
+  }
 }

@@ -13,37 +13,60 @@
 
 <body>
      <div id="deel1"> 
+
        <div>
-      <nav id="nav">
+      <nav class="topnav" id="nav">
         <a href="index.html">Home</a>
           <a href="about.html">About me</a>
           <a href="Projects.html">My Projects</a>
           <a href="contact.html">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </nav>
       </div>
+
        <div id="deel2">
-        <div id="foto">
-            <img src="images/foto.jpg" alt="foto">
-            </div>
-        <div id="beschrijving">
-          <div id="info">
-            <h6>Hallo iedereen, ik ben</h6>
-            <h2>Jonas Van Cutsem</h2> 
-            <h4>Student HOGent - Toegepaste Informatica </h4> 
-        <p>tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst </p>
-            <ul id="informatie">
-              <li ><i class="fa fa-calendar" style="font-size:36px"></i>&emsp;&emsp;2 september 2001</li>
-              <li ><i class="fa fa-phone" style="font-size:38px"></i>&emsp;&emsp;0471/29 70 99</li>
-              <li ><i class="fa fa-envelope" style="font-size:36px"></i>&emsp;&emsp;jonas.vancutsem@student.hogent.be</li>
-              <li ><i class="fa fa-home" style="font-size:36px"></i>&emsp;&emsp;Beiaardlaan 12, 1745 Opwijk</li>
-            </ul>
-      </div>
-      </div>
+
+                <div id="foto">
+                  <img src="images/E-portfolio.jpg" alt="foto">
+                </div>
+
+          <div id="beschrijving">
+
+                  <div id="info">
+                    <h6>Hallo iedereen, ik ben</h6>
+                      <h2>Jonas Van Cutsem</h2> 
+                        <h4>Student HOGent - Toegepaste Informatica </h4> 
+                <p>tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst tekst 
+                  
+                  <ul id="informatie">
+                            <li ><i class="fa fa-calendar" style="font-size:36px"></i>&emsp;&emsp;2 september 2001</li>
+                            <li ><i class="fa fa-phone" style="font-size:38px"></i>&emsp;&emsp;0471/29 70 99</li>
+                            <li ><i class="fa fa-envelope" style="font-size:36px"></i>&emsp;&emsp;jonas.vancutsem@student.hogent.be</li>
+                            <li ><i class="fa fa-home" style="font-size:36px"></i>&emsp;&emsp;Beiaardlaan 12, 1745 Opwijk</li>
+                      </ul></p>
+                      
+                </div>
+          </div>
     </div>
+
   </div>
   <div id="onder">
 
   </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("nav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
       </body>
   </html>
 </head>
