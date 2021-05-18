@@ -58,6 +58,20 @@ a:hover {
   height: 30vh;
 }
 
+#card {
+  position: relative;
+  background: white;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  margin-left: 4%;
+  height: 75vh;
+  top: 15%;
+  border-radius: 10px;
+  padding: 25px;
+  float: left;
+}
+
 img {
   width: 100%;
   border-radius: 15px;
