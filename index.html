@@ -1,72 +1,470 @@
-<head>
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>E-Portfolio</title>
-      <link rel="stylesheet" href="index.css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-   </head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
 
+    <title>Reflux HTML CSS Template</title>
+<!--
+Reflux Template
+https://templatemo.com/tm-531-reflux
+-->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-<body>
-     <div id="deel1"> 
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
 
-       <div>
-      <nav class="topnav" id="nav">
-        <a href="index.html">Home</a>
-          <!-- <a href="about.html">About me</a> -->
-          <a href="Projects.html">My Projects</a>
-          <a href="contact.html">Contact</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </nav>
-      </div>
-
-       <div id="deel2">
-
-                <div id="foto">
-                  <img src="images/E-portfolio.jpg" alt="foto">
-                </div>
-
-          <div id="beschrijving">
-
-                  <div id="info">
-                    <h6>Hallo iedereen, ik ben</h6>
-                      <h2>Jonas Van Cutsem</h2> 
-                        <h4>Student HOGent - Toegepaste Informatica </h4> 
-                <p>Gemotiveerde student die graag wilt bijleren
-                  
-                  <ul id="informatie">
-                            <li ><i class="fa fa-calendar" style="font-size:36px"></i>&emsp;&emsp;2 september 2001</li>
-                            <li ><i class="fa fa-phone" style="font-size:38px"></i>&emsp;&emsp;0471/29 70 99</li>
-                            <li ><i class="fa fa-envelope" style="font-size:36px"></i>&emsp;&emsp;jonas.vancutsem@student.hogent.be</li>
-                            <li ><i class="fa fa-home" style="font-size:36px"></i>&emsp;&emsp;Beiaardlaan 12, 1745 Opwijk</li>
-                      </ul></p>
-                      
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/E-portfolio.jpg" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>Jonas Van Cutsem</h4>
+              <span>Student HOGent - Toegepaste Informatica</span><br>
+              <span>Fullstack Developer</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">About Me</a></li>
+                <li><a href="#section2">Qualities</a></li>
+                <li><a href="#section3">My Projects</a></li>
+                <li><a href="#section4">Contact Me</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="https://www.linkedin.com/in/jonas-van-cutsem-600398209/"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="https://github.com/jonasvancutsem"><i class="fa fa-github"></i></a>
+                </li>
+                <li>
+                  <a href="https://jonasvancutsem.github.io/E-Portfolio/"><i class="fa fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+                  <div style="margin-top:5vh;">
+                <button>
+                  <a href="assets/files/CV Jonas_Van_Cutsem.pdf" target="_blank">My resume</a>
+                </button>
                 </div>
           </div>
+        </div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="line-dec"></div>
+            <span
+              >Gemotiveerde student die graag wilt bijleren</span
+            >
+          </div>
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="assets/images/left-image.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4>Reflux HTML CSS Template</h4>
+                  <p>
+                    Donec tristique feugiat lacus, at sollicitudin nunc euismod
+                    sed. Mauris viverra, erat non sagittis gravida, elit dui
+                    mollis ante, sit amet eleifend purus ligula eget eros. Sed
+                    tincidunt quam vitae neque pharetra dignissim eget ut
+                    libero.
+                  </p>
+                  <div class="white-button">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-text">
+                  <h4>Sed sagittis rhoncus velit</h4>
+                  <p>
+                    Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Vestibulum fermentum
+                    eleifend nibh, vitae sodales elit finibus pretium.
+                    Suspendisse potenti. Ut sollicitudin risus a sollicitudin
+                    semper.
+                  </p>
+                  <div class="white-button">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-image">
+                  <img src="assets/images/right-image.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>What I’m good at?</h2>
+            <div class="line-dec"></div>
+            <span
+              >Curabitur leo felis, rutrum vitae varius eu, malesuada a tortor.
+              Vestibulum congue leo et tellus aliquam, eu viverra nulla semper.
+              Nullam eu faucibus diam. Donec eget massa ante.</span
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>HTML5 &amp; CSS3</h4>
+                <p>
+                  Phasellus non convallis dolor. Integer tempor hendrerit arcu
+                  at bibendum. Sed ac ante non metus vehicula congue quis eget
+                  eros.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>Creative Ideas</h4>
+                <p>
+                  Proin lacus massa, eleifend sed fermentum in, dignissim vel
+                  metus. Nunc accumsan leo nec felis porttitor, ultricies
+                  faucibus purus mollis.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4>Easy Customize</h4>
+                <p>
+                  Integer suscipit condimentum aliquet. Nam quis risus metus.
+                  Nullam faucibus quam eget arcu pretium tincidunt. Nam libero
+                  dui.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon"></div>
+                <h4>Admin Dashboard</h4>
+                <p>
+                  Vivamus et dui a massa venenatis fringilla. Proin lacus massa,
+                  eleifend sed fermentum in, dignissim vel metus. Nunc accumsan
+                  leo nec felis porttitor.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>My Work</h2>
+            <div class="line-dec"></div>
+            <span
+              >Here you find some of my past projects i did.</span
+            >
+          </div>
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label
+                  ><input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  <span>all</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="Angular"
+                    name="isotope-filter"
+                  />
+                  <span>Angular</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="Java"
+                    name="isotope-filter"
+                  />
+                  <span>Java</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="C#"
+                    name="isotope-filter"
+                  />
+                  <span>C#</span></label
+                >
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="C#">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/LocalHeroBlack.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/LocalHeroBlack.png"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>First Title</h4>
+                      <span>
+                        Website developed for the city of aalst (in school context).
+
+                      </span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="Angular">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/Chattr_Logo.png"
+                      alt="chattr logo"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/Chattr_Logo.png"
+                        data-lightbox="image-1"
+                        data-title="Chattr - chat application. Written in Angular with a REST API backend. Visit at https://wonderful-coast-001bcd303.azurestaticapps.net/"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Chattr - chat application</h4>
+                      <span>Chat application written in Angular. Using REST API backend.</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="Java">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/Coloretto.png"
+                      alt="Coloretto" style="border-radius: 1em;"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/Coloretto.png"
+                        data-lightbox="image-1"
+                        data-title=" Visit the Github repository at ..."
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Coloretto</h4>
+                      <span>Card game written in java in school context.
+
+                      </span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="*">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/unnamed.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/unnamed.png"
+                        data-lightbox="image-1"
+                        data-title="Coming soon..."
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Coming soon...</h4>
+                      <span>Coming soon...</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Contact Me</h2>
+            <div class="line-dec"></div>
+            <span
+              >If you want to contact me or you want to use one of my projects for educational purposes you can do it here.</span
+            >
+          </div>
+          <div class="row">
+            <div class="right-content">
+              <div class="container">
+                <form id="contact" action="https://formsubmit.co/jonas.v.cutsem@gmail.com" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="name"
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your name..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="email"
+                          type="text"
+                          class="form-control"
+                          id="email"
+                          placeholder="Your email..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input
+                          name="subject"
+                          type="text"
+                          class="form-control"
+                          id="subject"
+                          placeholder="Subject..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea
+                          name="message"
+                          rows="6"
+                          class="form-control"
+                          id="message"
+                          placeholder="Your message..."
+                          required=""
+                        ></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">
+                          Send Message
+                        </button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
-  </div>
-  <div id="onder">
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  </div>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
 
-  <script>
-    function myFunction() {
-      var x = document.getElementById("nav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
     </script>
-
-      </body>
-  </html>
-</head>
+  </body>
+</html>
